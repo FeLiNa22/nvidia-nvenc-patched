@@ -21,7 +21,7 @@ To enable automatic deployment, the following secrets must be configured in the 
 
 ### Triggering a Build
 To trigger a new build and deployment:
-1. Create and push a new tag:
+1. Create and push a new version tag (starting with 'v'):
    ```bash
    git tag v1.0.0
    git push origin v1.0.0

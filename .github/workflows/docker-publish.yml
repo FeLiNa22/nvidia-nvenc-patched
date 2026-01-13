@@ -3,7 +3,7 @@ name: Docker Build and Push
 on:
   push:
     tags:
-      - '*'
+      - 'v*'
 
 env:
   DOCKER_IMAGE: felina22/nvidia-nvenc-patched
